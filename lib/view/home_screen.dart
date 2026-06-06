@@ -21,7 +21,6 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
 
-            /// HEADER
             Container(
               padding: const EdgeInsets.fromLTRB(
                 20,
@@ -69,7 +68,6 @@ class HomeScreen extends StatelessWidget {
 
                   const SizedBox(height: 25),
 
-                  /// SEARCH BAR
                   Container(
                     height: 60,
                     decoration: BoxDecoration(
@@ -106,7 +104,6 @@ class HomeScreen extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            /// TITLE
             Padding(
               padding:
               const EdgeInsets.symmetric(horizontal: 20),
@@ -137,7 +134,6 @@ class HomeScreen extends StatelessWidget {
 
             const SizedBox(height: 10),
 
-            /// JOB LIST
             Expanded(
               child: Obx(() {
 
@@ -240,7 +236,6 @@ class HomeScreen extends StatelessWidget {
 
                             const SizedBox(width: 15),
 
-                            /// JOB INFO
                             Expanded(
                               child: Column(
                                 crossAxisAlignment:
@@ -350,7 +345,6 @@ class HomeScreen extends StatelessWidget {
                               ),
                             ),
 
-                            /// FAVORITE
                             IconButton(
                               icon: Icon(
                                 controller

@@ -74,7 +74,6 @@ class DetailScreen extends StatelessWidget {
         child: Column(
           children: [
 
-            /// HEADER
             Container(
               padding: const EdgeInsets.fromLTRB(
                 20,
@@ -137,7 +136,6 @@ class DetailScreen extends StatelessWidget {
                   CrossAxisAlignment.start,
                   children: [
 
-                    /// COMPANY CARD
                     Container(
                       padding: const EdgeInsets.all(18),
 
@@ -212,7 +210,6 @@ class DetailScreen extends StatelessWidget {
 
                     const SizedBox(height: 20),
 
-                    /// TAGS
                     Wrap(
                       spacing: 10,
                       runSpacing: 10,
@@ -253,7 +250,6 @@ class DetailScreen extends StatelessWidget {
 
                     const SizedBox(height: 20),
 
-                    /// JOB DESCRIPTION
                     Container(
                       width: double.infinity,
                       padding: const EdgeInsets.all(20),
@@ -356,7 +352,6 @@ class DetailScreen extends StatelessWidget {
               ),
             ),
 
-            /// APPLY BUTTON
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
